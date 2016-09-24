@@ -1,7 +1,7 @@
 /* eslint no-console:0, global-require:0 */
 'use strict';
 if (process.env.NODE_ENV === undefined) {
-  process.env.NODE_ENV = 'development';
+  process.env.NODE_ENV = 'development';//product(生产 )， relese 线下
 }
 
 const url = require('url');
